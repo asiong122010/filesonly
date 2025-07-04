@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  height: 100%;
+     background:rgb(60, 152, 189);
+     background-image: url(../img/background.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+  background-position:  center;
+  background-attachment: fixed;
+}
+.container {
+ background: #b5bbc4;
+  width: 100%;
+ height: 60px;;
+ position: fixed;
+ top: 0;
+ left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 220px;
+z-index: 2;
+}
+
+a {
+  margin: 0;
+  font-size: xx-large;
+  text-decoration: none;
+}
+img {
+  transition: 0.3s ease 0.2s;
+   margin-top: 20vh ;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap:wrap;
+  border: solid black 3px;
+  border-radius: 360px;
+  z-index: 1;
+}
+.jpg {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.fa-circle-user {
+  transition: 0.2s ease 0.2s;
+  color:black;
+}
+.fa-image {
+  transition: 0.2s ease 0.2s;
+  color:black;
+}
+.fa-user {
+  transition: 0.2s ease 0.2s;
+  color:black;
+}
+.fa-bookmark {
+  transition: 0.2s ease 0.2s;
+  color:black;
+}
+.fa-heart {
+  transition: 0.2s ease 0.2s;
+  color:black;
+}
+/* */
+
+.fa-circle-user:hover {
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.2em;
+  color: #55ad57;
+}
+.fa-image:hover {
+    box-shadow: 5px 5px 5px black;
+  font-size: 1.2em;
+  color:#55ad57;
+}
+.fa-user:hover {
+    box-shadow: 5px 5px 5px black;
+  font-size: 1.2em;
+  color:#55ad57;
+}
+.fa-bookmark:hover {
+    box-shadow: 5px 5px 5px black;
+  font-size: 1.2em;
+  color:#55ad57;
+}
+.fa-heart:hover {
+    box-shadow: 5px 5px 5px black;
+  font-size: 1.2em;
+  color:#55ad57;
+}
+/**/
+.fa-circle-user:active {
+  color:skyblue;
+}
+.fa-image:active {
+  color:skyblue;
+}
+.fa-user:active {
+  color:skyblue;
+}
+.fa-bookmark:active  {
+  color:skyblue;
+}
+.fa-heart:active  {
+  color: skyblue;
+}
+.box1 {
+  background: skyblue;
+}
+.box2 {
+  background: skyblue;
+}
+.box3 {
+  background: skyblue;
+}
+.box4 {
+  background: skyblue;
+}
+
+#box {
+  transition: 0.2s ease 0.2s;
+  padding: 10px;
+ border: solid black 2px;
+ width: 450px;
+  height: 220px;
+  border-radius: 20px;
+}
+.container12 {
+  
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  align-items: center;
+flex-wrap: wrap;
+align-items: center;
+height: 70px;
+   row-gap: 20px;
+   
+}
+.name {
+  width: 400px;
+  text-align: center;
+  transition: 0.4s ease 0.2s;
+  display: inline-block;
+  border:Black solid 2px;
+border-radius: 10px;
+font-size: 35px;
+padding: 4px;
+background:#bcc7d6;
+font-family:cursive;
+}
+.nombre {
+display: flex; 
+justify-content: center;
+}
+.bday {
+   transition: 0.4s ease 0.2s;
+  width: 350px;
+  border: black solid 2px;
+  background: #bcc7d6;
+  padding:4px;
+  font-family:'Courier New', Courier, monospace;
+  border-radius:10px;
+  font-size: 30px;
+  text-align: center; 
+ 
+}
+.day {
+display: flex;
+ justify-content: center;
+}
+
+.age {
+   transition: 0.4s ease 0.2s;
+  text-align: center;
+  width:250px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  font-size:35px;
+  font-weight: bold;
+  background: #bcc7d6;
+}
+.edad {
+display: flex;
+justify-content: center;
+}
+.age:hover{
+  font-size:2.2em;
+  text-shadow: 7px 3px 5px black;
+  color: White;
+  box-shadow: 5px 5px 5px white, 4px 5px #bcc7d6, 15px 10px 10px #000000 ;
+}
+.name:hover{
+  font-size:2.2em;
+  text-shadow: 7px 3px 5px black;
+  color: White;
+  box-shadow: 5px 5px 5px white, 4px 5px #bcc7d6, 15px 10px 10px #000000 ;
+}
+
+.bday:hover{
+  font-size:1.8em;
+  text-shadow: 7px 3px 5px black;
+  color: White;
+  box-shadow: 5px 5px 5px white, 10px 4px 5px #bcc7d6, 12px 10px 10px #000000 ;
+}
+.jpg:hover {
+  width: 355px;
+color: grey;
+box-shadow: 5px 7px 10px lightgrey,5px 9px 10px #55ad57, 5px 5px 10px WHite,15px 12px 10px black;
+}
+
+#box:hover {
+  font-size: 1.2em;
+  color: white;
+  width: 455px;
+  height: 225px;
+  text-shadow: 0px 0px 0px;
+  box-shadow: 7px 5px 10px skyblue, 10px 7px 10px white;
+}
+.outro {
+  border-radius:20px;
+  background:#58a16d;
+  width: 1050px;
+  height:650px;
+  
+}
+.container14 {
+   display: flex;
+  justify-content: center;
+}
+h1,h2 {
+  text-align: center;
+}
+p{
+  font-size: 1.4em;
+  padding: 25px;
+}
+span{
+  padding: 25px;
+  font-size:1.3em;
+}
